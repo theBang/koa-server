@@ -1,0 +1,21 @@
+{
+	"name": "koa-server",
+	"version": "1.0.0",
+	"description": "Koa template server",
+	"main": "koa_server.js",
+	"scripts": {
+		"start": "node koa_server.js"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"koa": "^2.7.0",
+		"koa-router": "^7.4.0",
+		"koa-static": "^5.0.0",
+		"koa-session": "^5.11.0",
+		"koa-views": "^6.2.0",
+		"koa-bodyparser": "^4.2.1",
+		"pug": "^2.0.3",
+		"koa-logger": "^3.2.0",
+		"mongoose": "^5.5.9"
+	}
+}
